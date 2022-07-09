@@ -3,9 +3,14 @@
 #include <time.h>
 
 int main(void) {
-  
-  printf("\nJOGO DA ADIVINHAÇÃO\n\n");
-  
+printf("            __              \n");
+printf("           (  )             \n");
+printf("            ||              \n");
+printf("            ||              \n");
+printf("         ___|""|__.._        \n");
+printf("       /____________\\      \n");
+printf("       \\____________/~~~.  \n");
+printf("\n     JOGO DA ADIVINHAÇÃO  \n");
   // aqui ele usa o tempo para pegar um numero aleatorio   
   int tempo = time(0);
   // pega um numero aleatorio do tempo
@@ -26,7 +31,7 @@ int main(void) {
 
   // while(1) significa que o loop roda infinitamente ate ser parado pelo break
   while (1){
-    printf("Escolha a dificuldade: \n(1) fácil \n(2) médio \n(3) difícil\n");
+    printf("\nEscolha a dificuldade: \n(1) fácil \n(2) médio \n(3) difícil\n");
     scanf("%d",&dificuldade);
     
     if(dificuldade == 1){
